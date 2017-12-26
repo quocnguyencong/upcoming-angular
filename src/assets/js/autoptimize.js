@@ -1317,12 +1317,12 @@ jQuery.fn.sortElements = (function () {
     var dva = $('.val2').text();
     var chetire = $('.val4').text();
     if ($('body').hasClass('page-template-ico-stats') == true) {}
-    if ($('body').hasClass('archive') == true) {
-      $('#careg_ico .categ_new_tabs ul li:eq(1) sub').text(odin);
-      $('#careg_ico .categ_new_tabs ul li:eq(2) sub').text(dva);
-      $('#careg_ico .categ_new_tabs ul li:eq(3) sub').text(chetire);
-      $('#careg_ico .categ_new_tabs ul li:eq(0) sub').text(Number(dva) + Number(odin));
-    };
+    // if ($('body').hasClass('archive') == true) {
+    //   $('#careg_ico .categ_new_tabs ul li:eq(1) sub').text(odin);
+    //   $('#careg_ico .categ_new_tabs ul li:eq(2) sub').text(dva);
+    //   $('#careg_ico .categ_new_tabs ul li:eq(3) sub').text(chetire);
+    //   $('#careg_ico .categ_new_tabs ul li:eq(0) sub').text(Number(dva) + Number(odin));
+    // };
     var eth_h = 'ethereum';
     var btc_b = 'bitcoin';
     var prcbtc = '';
