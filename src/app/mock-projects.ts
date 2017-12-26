@@ -12,7 +12,7 @@ export const projects: Project[] = [
         category_name: "(Blockchain Service)",
         goal: "$9,000,000",
         start_date: "22 Jan",
-        end_date: "",
+        end_date: "31 Jan",
         tags: {
             category_one_status: "Yes",
             category_three_status: "Yes",

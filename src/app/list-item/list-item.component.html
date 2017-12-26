@@ -36,41 +36,8 @@
     <div class="date">
       {{project.start_date}}
     </div>
-    <div class='meta_icon'>
-      <div class="categ_one"
-        [class.yes]="project.tags.category_one_status == 'Yes'" 
-        [class.no]="project.tags.category_one_status == 'No'"
-        [class.tooltip]="project.tags.category_one_show_tooltip"
-        [attr.rel]="project.tags.category_one_tooltip" 
-        [attr.title]="project.tags.category_one_tooltip"></div><div 
-        
-        id='linkwhitelist' class='categ_three' 
-        [class.yes]="project.tags.category_three_status == 'Yes'" 
-        [class.no]="project.tags.category_three_status == 'No'"
-        [class.tooltip]="project.tags.category_three_show_tooltip"
-        [attr.rel]='project.tags.category_three_tooltip' 
-        [attr.title]='project.tags.category_three_tooltip'></div><div 
-        
-        class="categ_two" 
-        [class.yes]="project.tags.category_two_status == 'Yes'" 
-        [class.no]="project.tags.category_two_status == 'No'"
-        [class.tooltip]="project.tags.category_two_show_tooltip"
-        [attr.rel]="project.tags.category_two_tooltip" 
-        [attr.title]="project.tags.category_two_tooltip"></div><div 
-        
-        class="categ_four" 
-        [class.yes]="project.tags.category_four_status == 'Yes'" 
-        [class.no]="project.tags.category_four_status == 'No'"
-        [class.tooltip]="project.tags.category_four_show_tooltip"
-        [attr.rel]="project.tags.category_four_tooltip" 
-        [attr.title]="project.tags.category_four_tooltip"></div><div 
-        
-        class="categ_five" 
-        [class.yes]="project.tags.category_five_status == 'Yes'" 
-        [class.no]="project.tags.category_five_status == 'No'"
-        [class.tooltip]="project.tags.category_five_show_tooltip"
-        [attr.rel]="project.tags.category_five_tooltip" 
-        [attr.title]="project.tags.category_five_tooltip"></div>
+    <div class='end_date'>
+      {{project.end_date}}
     </div>
   </div>
 </div>
