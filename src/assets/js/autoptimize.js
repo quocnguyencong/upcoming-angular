@@ -1313,10 +1313,10 @@ jQuery.fn.sortElements = (function () {
         $('#ico-header').html(redy_state);
       }
     });
-    var odin = $('.val1').text();
-    var dva = $('.val2').text();
-    var chetire = $('.val4').text();
-    if ($('body').hasClass('page-template-ico-stats') == true) {}
+    // var odin = $('.val1').text();
+    // var dva = $('.val2').text();
+    // var chetire = $('.val4').text();
+    // if ($('body').hasClass('page-template-ico-stats') == true) {}
     // if ($('body').hasClass('archive') == true) {
     //   $('#careg_ico .categ_new_tabs ul li:eq(1) sub').text(odin);
     //   $('#careg_ico .categ_new_tabs ul li:eq(2) sub').text(dva);
